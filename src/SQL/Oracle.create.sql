@@ -26,6 +26,19 @@ CREATE TABLE "СправДол"
 ) ;
 
 
+CREATE TABLE "КартДоступ"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"НомерКарт" NVARCHAR2(255) NULL,
+
+	"СправСотр" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "STORMNETLOCKDATA"
 (
 
@@ -228,6 +241,11 @@ ALTER TABLE "СправСотр"
 	ADD CONSTRAINT "СправСотр_FСп_5568" FOREIGN KEY ("СправДол") REFERENCES "СправДол" ("primaryKey");
 
 CREATE INDEX "СправСотр_IСп_7247" on "СправСотр" ("СправДол");
+
+ALTER TABLE "КартДоступ"
+	ADD CONSTRAINT "КартДоступ_FС_9230" FOREIGN KEY ("СправСотр") REFERENCES "СправСотр" ("primaryKey");
+
+CREATE INDEX "КартДоступ_IС_8793" on "КартДоступ" ("СправСотр");
 
 ALTER TABLE "STORMWEBSEARCH"
 	ADD CONSTRAINT "STORMWEBSEARCH_FSTORMFILT_6521" FOREIGN KEY ("FilterSetting_m0") REFERENCES "STORMFILTERSETTING" ("primaryKey");
