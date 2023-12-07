@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Prilozhenie10",
+  "applicationTitle": "Prilozhenie10",
+  "items": [
+    {
+      "link": null,
+      "menuName": "prilozhenie10",
+      "caption": "Prilozhenie10",
+      "title": "Prilozhenie10",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie10-справ-дол-l",
+          "menuName": null,
+          "caption": "Справ дол",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

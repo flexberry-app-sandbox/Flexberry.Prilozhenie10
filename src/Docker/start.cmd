@@ -1,0 +1,1 @@
+docker-compose -p prilozhenie10 up -d
