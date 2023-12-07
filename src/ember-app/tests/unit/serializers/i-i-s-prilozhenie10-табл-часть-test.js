@@ -1,9 +1,9 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-prilozhenie10-справ-дол', 'Unit | Serializer | i-i-s-prilozhenie10-справ-дол', {
+moduleForModel('i-i-s-prilozhenie10-табл-часть', 'Unit | Serializer | i-i-s-prilozhenie10-табл-часть', {
   // Specify the other units that are required for this test.
   needs: [
-    'serializer:i-i-s-prilozhenie10-справ-дол',
+    'serializer:i-i-s-prilozhenie10-табл-часть',
     'service:syncer',
     'transform:file',
     'transform:decimal',

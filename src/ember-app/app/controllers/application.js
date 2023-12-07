@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie10-справ-дол-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-дол-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-дол-l.title'),
-            icon: 'archive',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-prilozhenie10-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-сотр-l.title'),
-            icon: 'address card',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-prilozhenie10-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-карт-доступ-l.title'),
-            icon: 'calendar',
+            icon: 'building',
             children: null
           }]
         }

@@ -25,7 +25,13 @@
       "inverse": null
     }
   ],
-  "hasMany": [],
+  "hasMany": [
+    {
+      "name": "таблЧасть",
+      "relatedTo": "i-i-s-prilozhenie10-табл-часть",
+      "inverse": "картДоступ"
+    }
+  ],
   "projections": [
     {
       "name": "КартДоступE",

@@ -13,6 +13,17 @@ CREATE TABLE [СправСотр] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [ТаблЧасть] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [НомКарт] INT  NULL,
+
+	 [КартДоступ] UNIQUEIDENTIFIER  NOT NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СправДол] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,

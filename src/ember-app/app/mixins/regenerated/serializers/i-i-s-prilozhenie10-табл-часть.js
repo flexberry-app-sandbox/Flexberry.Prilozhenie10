@@ -5,8 +5,7 @@ export let Serializer = Mixin.create({
   getAttrs: function () {
     let parentAttrs = this._super();
     let attrs = {
-      справСотр: { serialize: 'odata-id', deserialize: 'records' },
-      таблЧасть: { serialize: false, deserialize: 'records' }
+      картДоступ: { serialize: 'odata-id', deserialize: 'records' }
     };
 
     return $.extend(true, {}, parentAttrs, attrs);

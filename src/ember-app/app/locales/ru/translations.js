@@ -10,6 +10,7 @@ import IISPrilozhenie10СправСотрEForm from './forms/i-i-s-prilozhenie10
 import IISPrilozhenie10КартДоступModel from './models/i-i-s-prilozhenie10-карт-доступ';
 import IISPrilozhenie10СправДолModel from './models/i-i-s-prilozhenie10-справ-дол';
 import IISPrilozhenie10СправСотрModel from './models/i-i-s-prilozhenie10-справ-сотр';
+import IISPrilozhenie10ТаблЧастьModel from './models/i-i-s-prilozhenie10-табл-часть';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -18,7 +19,8 @@ $.extend(true, translations, {
   models: {
     'i-i-s-prilozhenie10-карт-доступ': IISPrilozhenie10КартДоступModel,
     'i-i-s-prilozhenie10-справ-дол': IISPrilozhenie10СправДолModel,
-    'i-i-s-prilozhenie10-справ-сотр': IISPrilozhenie10СправСотрModel
+    'i-i-s-prilozhenie10-справ-сотр': IISPrilozhenie10СправСотрModel,
+    'i-i-s-prilozhenie10-табл-часть': IISPrilozhenie10ТаблЧастьModel
   },
 
   'application-name': 'Prilozhenie10',

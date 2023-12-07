@@ -40,6 +40,8 @@ namespace IIS.Prilozhenie10
         
         private IIS.Prilozhenie10.СправСотр fСправСотр;
         
+        private IIS.Prilozhenie10.DetailArrayOfТаблЧасть fТаблЧасть;
+        
         // *** Start programmer edit section *** (КартДоступ CustomMembers)
 
         // *** End programmer edit section *** (КартДоступ CustomMembers)
@@ -108,6 +110,41 @@ namespace IIS.Prilozhenie10
                 // *** Start programmer edit section *** (КартДоступ.СправСотр Set end)
 
                 // *** End programmer edit section *** (КартДоступ.СправСотр Set end)
+            }
+        }
+        
+        /// <summary>
+        /// КартДоступ.
+        /// </summary>
+        // *** Start programmer edit section *** (КартДоступ.ТаблЧасть CustomAttributes)
+
+        // *** End programmer edit section *** (КартДоступ.ТаблЧасть CustomAttributes)
+        public virtual IIS.Prilozhenie10.DetailArrayOfТаблЧасть ТаблЧасть
+        {
+            get
+            {
+                // *** Start programmer edit section *** (КартДоступ.ТаблЧасть Get start)
+
+                // *** End programmer edit section *** (КартДоступ.ТаблЧасть Get start)
+                if ((this.fТаблЧасть == null))
+                {
+                    this.fТаблЧасть = new IIS.Prilozhenie10.DetailArrayOfТаблЧасть(this);
+                }
+                IIS.Prilozhenie10.DetailArrayOfТаблЧасть result = this.fТаблЧасть;
+                // *** Start programmer edit section *** (КартДоступ.ТаблЧасть Get end)
+
+                // *** End programmer edit section *** (КартДоступ.ТаблЧасть Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (КартДоступ.ТаблЧасть Set start)
+
+                // *** End programmer edit section *** (КартДоступ.ТаблЧасть Set start)
+                this.fТаблЧасть = value;
+                // *** Start programmer edit section *** (КартДоступ.ТаблЧасть Set end)
+
+                // *** End programmer edit section *** (КартДоступ.ТаблЧасть Set end)
             }
         }
         

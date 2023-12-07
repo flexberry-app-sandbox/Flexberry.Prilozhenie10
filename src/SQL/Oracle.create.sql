@@ -15,6 +15,19 @@ CREATE TABLE "СправСотр"
 ) ;
 
 
+CREATE TABLE "ТаблЧасть"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"НомКарт" NUMBER(10) NULL,
+
+	"КартДоступ" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СправДол"
 (
 
@@ -241,6 +254,11 @@ ALTER TABLE "СправСотр"
 	ADD CONSTRAINT "СправСотр_FСп_5568" FOREIGN KEY ("СправДол") REFERENCES "СправДол" ("primaryKey");
 
 CREATE INDEX "СправСотр_IСп_7247" on "СправСотр" ("СправДол");
+
+ALTER TABLE "ТаблЧасть"
+	ADD CONSTRAINT "ТаблЧасть_FКа_3346" FOREIGN KEY ("КартДоступ") REFERENCES "КартДоступ" ("primaryKey");
+
+CREATE INDEX "ТаблЧасть_IКа_1543" on "ТаблЧасть" ("КартДоступ");
 
 ALTER TABLE "КартДоступ"
 	ADD CONSTRAINT "КартДоступ_FС_9230" FOREIGN KEY ("СправСотр") REFERENCES "СправСотр" ("primaryKey");

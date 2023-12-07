@@ -1,0 +1,48 @@
+﻿{
+  "name": "IISPrilozhenie10ТаблЧасть",
+  "modelName": "i-i-s-prilozhenie10-табл-часть",
+  "className": "ТаблЧасть",
+  "nameSpace": "IIS.Prilozhenie10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номКарт",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "картДоступ",
+      "relatedTo": "i-i-s-prilozhenie10-карт-доступ",
+      "inverse": "таблЧасть"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТаблЧастьE",
+      "modelName": "i-i-s-prilozhenie10-табл-часть",
+      "attrs": [
+        {
+          "name": "номКарт",
+          "caption": "Номер Карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -6,6 +6,7 @@ moduleForModel('i-i-s-prilozhenie10-справ-дол', 'Unit | Model | i-i-s-pr
     'model:i-i-s-prilozhenie10-карт-доступ',
     'model:i-i-s-prilozhenie10-справ-дол',
     'model:i-i-s-prilozhenie10-справ-сотр',
+    'model:i-i-s-prilozhenie10-табл-часть',
     'validator:ds-error',
     'validator:presence',
     'validator:number',
