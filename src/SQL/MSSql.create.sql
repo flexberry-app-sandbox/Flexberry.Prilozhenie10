@@ -2,6 +2,17 @@
 
 
 
+CREATE TABLE [СправСотр] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ФИОСтор] VARCHAR(255)  NULL,
+
+	 [СправДол] UNIQUEIDENTIFIER  NOT NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СправДол] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,

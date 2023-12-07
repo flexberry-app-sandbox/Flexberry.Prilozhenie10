@@ -22,7 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie10-справ-дол-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-дол-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-дол-l.title'),
-            icon: 'suitcase',
+            icon: 'tasks',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie10-справ-сотр-l',
+            caption: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-сотр-l.caption'),
+            title: i18n.t('forms.application.sitemap.prilozhenie10.i-i-s-prilozhenie10-справ-сотр-l.title'),
+            icon: 'briefcase',
             children: null
           }]
         }

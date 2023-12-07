@@ -2,15 +2,19 @@ import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/en/translations';
 
 import IISPrilozhenie10СправДолLForm from './forms/i-i-s-prilozhenie10-справ-дол-l';
+import IISPrilozhenie10СправСотрLForm from './forms/i-i-s-prilozhenie10-справ-сотр-l';
 import IISPrilozhenie10СправДолEForm from './forms/i-i-s-prilozhenie10-справ-дол-e';
+import IISPrilozhenie10СправСотрEForm from './forms/i-i-s-prilozhenie10-справ-сотр-e';
 import IISPrilozhenie10СправДолModel from './models/i-i-s-prilozhenie10-справ-дол';
+import IISPrilozhenie10СправСотрModel from './models/i-i-s-prilozhenie10-справ-сотр';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
 
 $.extend(true, translations, {
   models: {
-    'i-i-s-prilozhenie10-справ-дол': IISPrilozhenie10СправДолModel
+    'i-i-s-prilozhenie10-справ-дол': IISPrilozhenie10СправДолModel,
+    'i-i-s-prilozhenie10-справ-сотр': IISPrilozhenie10СправСотрModel
   },
 
   'application-name': 'Prilozhenie10',
@@ -82,6 +86,10 @@ $.extend(true, translations, {
           'i-i-s-prilozhenie10-справ-дол-l': {
             caption: 'Справ дол',
             title: ''
+          },
+          'i-i-s-prilozhenie10-справ-сотр-l': {
+            caption: 'Справочник Сотрудники',
+            title: ''
           }
         }
       }
@@ -96,7 +104,9 @@ $.extend(true, translations, {
       'delete-error-message-caption': 'Delete operation failed'
     },
     'i-i-s-prilozhenie10-справ-дол-l': IISPrilozhenie10СправДолLForm,
-    'i-i-s-prilozhenie10-справ-дол-e': IISPrilozhenie10СправДолEForm
+    'i-i-s-prilozhenie10-справ-сотр-l': IISPrilozhenie10СправСотрLForm,
+    'i-i-s-prilozhenie10-справ-дол-e': IISPrilozhenie10СправДолEForm,
+    'i-i-s-prilozhenie10-справ-сотр-e': IISPrilozhenie10СправСотрEForm
   },
 
 });

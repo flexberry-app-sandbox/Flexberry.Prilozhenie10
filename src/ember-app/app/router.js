@@ -11,6 +11,11 @@ Router.map(function () {
   { path: 'i-i-s-prilozhenie10-справ-дол-e/:id' });
   this.route('i-i-s-prilozhenie10-справ-дол-e.new',
   { path: 'i-i-s-prilozhenie10-справ-дол-e/new' });
+  this.route('i-i-s-prilozhenie10-справ-сотр-l');
+  this.route('i-i-s-prilozhenie10-справ-сотр-e',
+  { path: 'i-i-s-prilozhenie10-справ-сотр-e/:id' });
+  this.route('i-i-s-prilozhenie10-справ-сотр-e.new',
+  { path: 'i-i-s-prilozhenie10-справ-сотр-e/new' });
 });
 
 export default Router;

@@ -11,7 +11,14 @@
         {
           "link": "i-i-s-prilozhenie10-справ-дол-l",
           "menuName": null,
-          "caption": "Справ дол",
+          "caption": "Справочник Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie10-справ-сотр-l",
+          "menuName": null,
+          "caption": "Справочник Сотрудники",
           "title": "",
           "children": null
         }

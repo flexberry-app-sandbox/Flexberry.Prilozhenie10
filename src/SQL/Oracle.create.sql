@@ -2,6 +2,19 @@
 
 
 
+CREATE TABLE "СправСотр"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"ФИОСтор" NVARCHAR2(255) NULL,
+
+	"СправДол" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СправДол"
 (
 
@@ -210,6 +223,11 @@ CREATE TABLE "ApplicationLog"
 ) ;
 
 
+
+ALTER TABLE "СправСотр"
+	ADD CONSTRAINT "СправСотр_FСп_5568" FOREIGN KEY ("СправДол") REFERENCES "СправДол" ("primaryKey");
+
+CREATE INDEX "СправСотр_IСп_7247" on "СправСотр" ("СправДол");
 
 ALTER TABLE "STORMWEBSEARCH"
 	ADD CONSTRAINT "STORMWEBSEARCH_FSTORMFILT_6521" FOREIGN KEY ("FilterSetting_m0") REFERENCES "STORMFILTERSETTING" ("primaryKey");
